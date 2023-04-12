@@ -44,10 +44,15 @@ h1{
 
 footer{
     margin: 1.5rem;
+    
+}
+
+footer a {
+    color: #222;
 }
 
 #main-container{
-    max-width: 1440px;
+    /* max-width: 1440px; */
     margin: 0 auto;
     display: grid;
     height: 100vh;
@@ -62,14 +67,13 @@ footer{
 
 .common{
     width:100%;
-    height: auto;
+    height: 60%;
     overflow: hidden;
     margin: 0;
     padding: 3rem 3rem;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    /* align-items: center; */
 
 }
 
@@ -77,7 +81,6 @@ footer{
   grid-column: 2/span 3;
   background-color: var(--bright-orange);
   color: var(--bright-orange);
-  height: 60vh;
   margin: 0 auto;
   border-radius: 0.5rem 0 0 0.5rem;
 
@@ -87,7 +90,6 @@ footer{
     grid-column: 5/span 3;
     background-color: var(--dark-cyan);
     color: var(--dark-cyan);
-    height: 60vh;
     margin: 0 auto;
   }
 
@@ -95,7 +97,6 @@ footer{
     grid-column: 8/span 3;
     background-color: var(--darker-cyan);
     color: var(--darker-cyan);
-    height: 60vh;
     margin: 0 auto;
     border-radius: 0 0.5rem 0.5rem 0;
 
@@ -162,14 +163,22 @@ border-image: none;
     #main-container{
         display: flex;
         flex-direction: column;
-        width: 90%;
+        width: fit-content;
         height: auto;
         overflow: hidden;
         padding: 1rem 0 1rem 0;
 
     }
+
+    p{
+        width: fit-content;
+    }
     
-   
+    .common{
+        padding: 4rem auto;
+
+    }
+
     .left-container{
         border-radius: 0.5rem 0.5rem 0 0;
 
@@ -185,8 +194,9 @@ border-image: none;
     }
 }
 
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 400px){
     .learn-more{
-        width:60%;
+        width:fit-content;
+        margin-top: 1.5rem;
     }
 }
