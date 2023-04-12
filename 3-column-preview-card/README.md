@@ -30,8 +30,8 @@ Your users should be able to:
 
 ### Links
 
-- Solution URL:  (https://github.com/Gandah/Frontend-Repo/tree/main/3-column-preview-card)
-- Live Site URL: (https://3-column-preview-card-eight-omega.vercel.app/)
+- Solution URL: [Solution URL](https://github.com/Gandah/Frontend-Repo/tree/main/3-column-preview-card)
+- Live Site URL: [Site URL](https://3-column-preview-card-eight-omega.vercel.app/)
 
 ## My process
 
