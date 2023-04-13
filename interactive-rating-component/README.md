@@ -29,9 +29,10 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-![](./thank-you-page.png)
-![](./screenshot-mobile.png) ![](./thank-you-mobile.png)
+![](./screenshots/screenshot.jpg)
+![](./screenshots/thank-you-page.png)
+![](./screenshots/screenshot-mobile.png)
+![](./screenshots/thank-you-mobile.png)
 
 
 ### Links
