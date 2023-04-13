@@ -4,19 +4,14 @@ $(document).ready(function() {
 let selectableButtons = $(".selectable")
 let numberSelected = '';
 
-
-$(".selectable").click(function(){
-  numberSelected = $(this).data("value");
- 
-  // Construct the query parameter string
-  let queryParams = "?numberSelected=" + numberSelected;
-
-  // Add the query parameter to the URL
-  $("form").attr("action", "submit.html" + queryParams);
-
+$(".selectable").click(function(event){
+    event.preventDefault();
+    numberSelected = $(this).data("value");
   
+    let url = "submit.html?numberSelected=" + encodeURIComponent(numberSelected);
+    window.location.href = url;  
 });
-
+  
 
 let previousButton = null; // Initialize a variable to keep track of the previously selected button
 // Loop through each element with the class "selectable"
